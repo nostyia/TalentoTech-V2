@@ -15,7 +15,6 @@ body {
   height: 4em;
   align-items: center;
   position: sticky;
-  margin-bottom: 40px;
   top: 0px;
   background-color: rgb(125, 123, 255);
 }
@@ -50,4 +49,12 @@ body {
 .container .header .navbar ul li a:hover {
   color: orange;
   text-decoration: underline;
+}
+
+.container .hero {
+  background-image: url(../img/card-header.png);
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 500px;
 }

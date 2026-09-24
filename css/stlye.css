@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .header {
+  display: flex;
+  height: 4em;
+  align-items: center;
+  position: sticky;
+  margin-bottom: 40px;
+  top: 0px;
+  background-color: rgb(125, 123, 255);
+}
+.container .header .logo {
+  flex: 1;
+  margin-left: 1em;
+}
+
+.container .header .logo img {
+  width: auto;
+  height: 4em;
+}
+
+.container .header .navbar ul {
+  display: flex;
+  justify-content: end;
+  gap: 1em;
+  margin-right: 1em;
+}
+
+.container .header .navbar ul li {
+  list-style: none;
+}
+
+.container .header .navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.container .header .navbar ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
